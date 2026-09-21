@@ -1,0 +1,6 @@
+{
+  "endpoint": "https://dbpedia.org/sparql",
+  "items": 6924,
+  "covered_items": 5515,
+  "sha256": "75ac3a4b11dc4e4c4793f69ba4cd7db03cba5b22dd286bec7e7a88af509acd7d"
+}

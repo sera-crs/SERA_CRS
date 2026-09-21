@@ -1,0 +1,42 @@
+{
+  "schema_version": "sera-v2.0-source-manifest",
+  "artifact_status": "rebuild_required",
+  "tag_backend": "predefined_metadata",
+  "tag_count": 8,
+  "tag_names": [
+    "action",
+    "comedy",
+    "drama",
+    "horror",
+    "romance",
+    "science_fiction",
+    "family",
+    "children"
+  ],
+  "group_names": [
+    "genre",
+    "audience"
+  ],
+  "tag_frequency": [
+    1168,
+    2017,
+    1573,
+    804,
+    889,
+    632,
+    21,
+    555
+  ],
+  "num_items": 6924,
+  "metadata_items": 5515,
+  "attribute_covered_items": 4829,
+  "attribute_source": "redial_item_categories.json",
+  "attribute_source_endpoint": "https://dbpedia.org/sparql",
+  "attribute_source_sha256": "75ac3a4b11dc4e4c4793f69ba4cd7db03cba5b22dd286bec7e7a88af509acd7d",
+  "attribute_schema": "redial_attribute_schema.json",
+  "attribute_schema_sha256": "4d0a0dc2dd2fe9f2dd4b6341b640b0da9577a5b9cb9e9a4bc62ec1ec03ebab84",
+  "preference_source": "visible seeker text without questionnaire labels",
+  "training_supervision_split": "train",
+  "scene_granularity": "local_contiguous_feedback_episode",
+  "build_command": "scripts/build_assets.sh"
+}

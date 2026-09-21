@@ -1,0 +1,25 @@
+{
+  "schema_version": "sera-redial-attributes-v1",
+  "groups": [
+    {
+      "name": "genre",
+      "exclusive": false,
+      "attributes": [
+        {"name": "action", "patterns": ["(^|[_ ])action([_ ]|$)"]},
+        {"name": "comedy", "patterns": ["comed", "satire", "humou?r"]},
+        {"name": "drama", "patterns": ["(^|[_ ])drama", "melodrama", "traged"]},
+        {"name": "horror", "patterns": ["horror", "slasher", "zombie"]},
+        {"name": "romance", "patterns": ["romance", "romantic"]},
+        {"name": "science_fiction", "patterns": ["science[_ -]?fiction", "sci[_ -]?fi"]}
+      ]
+    },
+    {
+      "name": "audience",
+      "exclusive": false,
+      "attributes": [
+        {"name": "family", "patterns": ["family", "all[_ -]?ages"]},
+        {"name": "children", "patterns": ["children", "(^|[_ ])kids?([_ ]|$)", "preschool"]}
+      ]
+    }
+  ]
+}
